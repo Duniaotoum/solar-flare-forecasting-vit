@@ -1,0 +1,18 @@
+# Model weights
+*.pth
+
+# Experiment outputs
+**/seeds/
+**/loss_curve.png
+**/val_tss_curve.png
+**/roc_curve.png
+**/pr_curve.png
+**/mean_confusion_matrix.png
+
+# CSV results
+*.csv
+
+# Large artifacts
+full model/
+vit only/
+vit+cnn*/
